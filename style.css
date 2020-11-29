@@ -18,7 +18,7 @@ nav a{
     margin-right: 20px;
 }
 
-#introduction, .speakers, .team, .events, .about {
+#introduction, .speakers, .team, .events, .about, #contacts {
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -49,15 +49,13 @@ nav a{
     padding-bottom: 10px;
     border-radius: 0.25em;
 }
+
 #image-hero {
     width: 500px;
     height: 500px;
     float: right;
     margin-top: 70px;
 }
-/* #speakers {
-    background-color: #141516;
-} */
 
 #team {
     background-color: black;
@@ -65,10 +63,10 @@ nav a{
 }
 
 #about {
-    color: black;
+    /* color: black; */
     padding-top: 40px;
     padding-left: 190px;
-    background-color: white;
+    /* background-color: white; */
     line-height: 2em;
 }
 
@@ -91,4 +89,14 @@ nav a{
 
   .past-events {
       margin: 0, auto;
+  }
+
+  .links {
+      display:flex;
+      flex-direction: row;
+  }
+
+  .linkitem {
+    line-height: 75px;
+    text-align: center;
   }
